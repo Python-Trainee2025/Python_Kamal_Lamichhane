@@ -9,5 +9,5 @@ else:
             print(f'{num} is not a prime number')
             flag = True
             break
-    if not flag:
+    else:
         print(f'{num} is a prime number')
